@@ -7,10 +7,17 @@
     
     }
 
-    header {
+    .page-name {
         text-align: center;
-        margin-top: -20px;
+        margin-top: -5px;
     }
+
+    .subtitle {
+        margin-top: -20px;
+        margin-bottom: 50px;
+        text-align: center;
+
+        }
 
     body {
         margin: 0px;
@@ -38,8 +45,17 @@
         background-color: black;
     }
 
-
     
+    .list {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 30px;
+    }
+
+    .date {
+        padding-top: 15px;
+    }
 
 
     #img-div {
@@ -70,15 +86,31 @@
 
     .quote {
         text-align: center;
+        padding-top: 25px;
+        padding-bottom: 5px;
     }
 
-    .footer {
+    .success {
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    .link {
         color:#313638;
         transition: 0.4s ease;
     }
 
-    .footer:hover {
+    .link:hover {
         color:#B20000;
         transition: 0.4s ease;
+    }
+
+    .footnote {
+        text-align: center;
+        margin: 5px;
+    }
+
+    .signature {
+        text-align: right;
     }
 
